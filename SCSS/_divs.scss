@@ -1,0 +1,11 @@
+// id -> # significa que es unico
+//clase -> . que varios componentes compartan lo mismo
+//etiqueta -> h1 que todas las etiquetas aplicaran el mismo estilo
+
+.div1{
+    @include customdiv(50px, 75px, red, white);
+}
+
+.div2{
+    @include customdiv(150px, 175px, orange, green);
+}

@@ -1,0 +1,14 @@
+doctype html 
+html 
+    head 
+        tittle Ejemplo pug
+    body 
+        h1 Encabezado 
+        p.alert.
+            Hola mundo 
+            Como estas 
+        ol 
+            each item in ["opcion 1", "opcion 2", "opcion 3"]
+                li #{item}
+        include condiciones
+        include tabla

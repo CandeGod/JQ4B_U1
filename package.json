@@ -1,0 +1,17 @@
+{
+  "name": "ejercicio-sass",
+  "version": "1.0.0",
+  "description": "(index.js)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sasito": "sass -w  ./SCSS/Estilos.scss ./CSS/Estilos.css",
+    "pugxd": "pug -w ./PUG/Index.pug -o ./html -P",
+    "pug": "pug -w ./Source/Pug/index.pug -o ./Source/Html -P"
+  },
+  "author": "Cande",
+  "license": "ISC",
+  "dependencies": {
+    "ejercicio-sass": "file:"
+  }
+}
